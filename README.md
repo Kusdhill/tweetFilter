@@ -12,6 +12,7 @@ Next, you'll have to <a href="https://dev.twitter.com/oauth/overview/application
 
 Once you have all the tokens, place the appropriate keys in the keys.py folder. It's blank initially, so make sure you fill it out. You can also edit which user's tweets you want to filter here. They do have to be a public user.
 
+# Usage
 You can run the app with:
 
 ```
@@ -19,3 +20,5 @@ python app.py
 ```
 
 If a posts.JSON file exists (it will after you run the app the first time), any subsequent time you run the app the program will ignore the Twitter API and start parsing through what exists in your posts.JSON file. If you ever want to start a new query on a different user, then you can delete the posts.JSON file and the program will create a new file for the new query.
+
+Enjoy!
