@@ -55,8 +55,6 @@ def get_first_max_id():
 	return(max_id)
 
 
-
-
 # Pass max ID's to get post. Max ID's change based on where we are in reading the tweets.
 def get_posts(max_id):
 	statuses = api.GetUserTimeline(screen_name=user, max_id=max_id)
