@@ -24,7 +24,7 @@ def main():
 		print("Creating posts file")
 		get_posts(max_id)
 	else:
-		print("Restarting posts file")
+		print("Restarting posts.JSON and results.txt files")
 		os.remove('./posts.JSON')
 		os.remove('./results.txt')
 		print("Getting max_id")
