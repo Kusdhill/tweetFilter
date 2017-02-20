@@ -19,6 +19,6 @@ You can run the app with:
 python app.py
 ```
 
-If a posts.JSON file exists (it will after you run the app the first time), any subsequent time you run the app the program restart a new posts.JSON file. If this is a hassle, you can alter the main() function. If you ever want to start a new query on a different user, then you can delete the posts.JSON file and the program will create a new file for the new query. You can also edit what filter terms you want in the filter_posts() function.
+If a posts.JSON file exists (it will after you run the app the first time), any subsequent time you run the app the program will restart a new posts.JSON file and a new results.txt file. If this is a hassle, you can alter the main() function to do whatever you want. If you ever want to start a new query on a different user, then you can delete the posts.JSON file and the program will create a new file for the new query. You can also edit what filter terms you want in the filter_posts() function.
 
 Enjoy!
