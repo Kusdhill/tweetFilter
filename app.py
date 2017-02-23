@@ -87,7 +87,7 @@ def filter_posts():
 		outfile.write(']')
 
 	# Add desired filter terms here
-	Filter = ['fake', 'failing', 'sad']
+	Filter = keys.Filter
 	tweet_list = []
 
 	with open('posts.JSON') as data_file:    
